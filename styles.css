@@ -1,0 +1,11 @@
+*{box-sizing:border-box}html,body{height:100%;margin:0;font-family:Segoe UI, system-ui, -apple-system, 'Noto Naskh Arabic', 'Noto Sans', sans-serif;background:linear-gradient(135deg,#4e54c8 0%,#8f94fb 100%);color:#fff}
+.hero{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem}
+.card{background:rgba(255,255,255,0.06);backdrop-filter:blur(6px);padding:2rem;border-radius:12px;max-width:720px;width:100%;text-align:center}
+.title{font-size:2rem;margin:0 0 .25rem}
+.subtitle{margin:0 0 1rem;opacity:.95}
+.features{list-style:none;padding:0;margin:0 0 1rem;display:flex;flex-direction:column;gap:.5rem;align-items:center}
+.features li{background:rgba(255,255,255,0.04);padding:.5rem 1rem;border-radius:8px;width:100%}
+.download-btn{display:inline-block;padding:.9rem 1.4rem;border-radius:10px;background:#ffcc00;color:#111;font-weight:700;text-decoration:none;margin-top:.6rem}
+.note{font-size:.85rem;opacity:.9;margin-top:1rem}
+.footer{margin-top:2rem;opacity:.9;font-size:.9rem}
+@media(min-width:700px){.title{font-size:2.4rem}.features{flex-direction:row}}
